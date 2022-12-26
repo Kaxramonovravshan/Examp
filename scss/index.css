@@ -1,63 +1,41 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: "Space Mono";
   src: url("././assets/fonts/Space_Mono/SpaceMono-Bold.ttf");
 }
-
 @font-face {
   font-family: "Lexend Deca";
   src: url("././assets/fonts/Lexend_Deca/static/LexendDeca-Regular.ttf"), url("./assets/fonts/Lexend_Deca/static/LexendDeca-Bold.ttf");
 }
-
 .header {
   width: 100%;
 }
-
 .header .navbar {
   max-width: 1100px;
   height: 95px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .header .navbar .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 50%;
 }
-
 .header .navbar .left ul {
   width: 50%;
   margin-left: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   list-style: none;
 }
-
 .header .navbar .left ul a {
   font-family: "Space Mono";
   font-style: normal;
@@ -67,7 +45,6 @@
   color: #939caa;
   text-decoration: none;
 }
-
 .header .navbar .right button {
   height: 53px;
   width: 180px;
@@ -90,22 +67,15 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 .section .container {
   max-width: 1100px;
   width: 1440px;
   margin: 0 auto;
   padding-top: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 40px;
 }
-
 .section .container h1 {
   width: 500px;
   font-family: "Space Mono";
@@ -116,12 +86,10 @@
   letter-spacing: -2.5px;
   color: #ffffff;
 }
-
 .section .container .content {
   width: 400px;
   margin-left: 100px;
 }
-
 .section .container .content p {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -130,7 +98,6 @@
   line-height: 25px;
   color: #ffffff;
 }
-
 .section .container button {
   height: 53px;
   width: 180px;
@@ -151,34 +118,20 @@
   width: 100%;
   padding-top: 160px;
 }
-
 .progress-section .container {
   max-width: 1100px;
   height: 400px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .progress-section .container .card {
   width: 350px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 30px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
 }
-
 .progress-section .container .card h1 {
   font-family: "Space Mono";
   font-style: normal;
@@ -188,7 +141,6 @@
   letter-spacing: -1.07143px;
   color: #495567;
 }
-
 .progress-section .container .card p {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -201,31 +153,19 @@
 .main {
   width: 100%;
 }
-
 .main .container {
   max-width: 1100px;
   height: 600px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .main .container .content {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 25px;
 }
-
 .main .container .content h1 {
   font-family: "Space Mono";
   font-style: normal;
@@ -235,7 +175,6 @@
   letter-spacing: -2.14286px;
   color: #495567;
 }
-
 .main .container .content p {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -244,7 +183,6 @@
   line-height: 25px;
   color: #939caa;
 }
-
 .main .container .content button {
   height: 53px;
   width: 180px;
@@ -259,11 +197,9 @@
   text-align: center;
   color: #ffffff;
 }
-
 .main .container .image {
   width: 40%;
 }
-
 .main .container .image img {
   width: 100%;
 }
@@ -272,38 +208,24 @@
   width: 100%;
   height: 600px;
 }
-
 .main-second .container {
   max-width: 1100px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .main-second .container .image {
   width: 40%;
 }
-
 .main-second .container .image img {
   width: 100%;
 }
-
 .main-second .container .content {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 25px;
 }
-
 .main-second .container .content h1 {
   font-family: "Space Mono";
   font-style: normal;
@@ -313,7 +235,6 @@
   letter-spacing: -2.14286px;
   color: #495567;
 }
-
 .main-second .container .content p {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -322,7 +243,6 @@
   line-height: 25px;
   color: #939caa;
 }
-
 .main-second .container .content button {
   height: 53px;
   width: 180px;
@@ -341,31 +261,19 @@
 .main-end {
   width: 100%;
 }
-
 .main-end .container {
   max-width: 1100px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 100px;
 }
-
 .main-end .container .content {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 25px;
 }
-
 .main-end .container .content h1 {
   font-family: "Space Mono";
   font-style: normal;
@@ -375,7 +283,6 @@
   letter-spacing: -2.14286px;
   color: #495567;
 }
-
 .main-end .container .content p {
   font-family: "Lexend Deca";
   font-style: normal;
@@ -384,7 +291,6 @@
   line-height: 25px;
   color: #939caa;
 }
-
 .main-end .container .content button {
   height: 53px;
   width: 180px;
@@ -399,11 +305,9 @@
   text-align: center;
   color: #ffffff;
 }
-
 .main-end .container .image {
   width: 40%;
 }
-
 .main-end .container .image img {
   width: 100%;
   border-radius: 50%;
@@ -413,22 +317,14 @@
   width: 100%;
   background-color: #495567;
 }
-
 .section-end .container {
   max-width: 1100px;
   height: 300px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .section-end .container h1 {
   width: 415px;
   font-family: "Space Mono";
@@ -439,10 +335,7 @@
   letter-spacing: -2.14286px;
   color: #ffffff;
 }
-
 .section-end .container .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 33px;
 }
@@ -451,43 +344,26 @@
   width: 100%;
   background: #333a44;
 }
-
 .footer .container {
   max-width: 1100px;
   height: 96px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .footer .container .left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 55px;
   width: 50%;
 }
-
 .footer .container .left ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   list-style: none;
   width: 50%;
 }
-
 .footer .container .left ul a {
   text-decoration: none;
   font-family: "Space Mono";
@@ -497,11 +373,13 @@
   line-height: 25px;
   color: #939caa;
 }
-
 .footer .container .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 25px;
 }
-/*# sourceMappingURL=index.css.map */
+
+.div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}/*# sourceMappingURL=index.css.map */
